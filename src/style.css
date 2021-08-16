@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(8, 8, 193, 0.83) !important;
+}
+
+.button {
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white !important;
+  border: 0.5px solid #f4f1f1a1;
+}
+
+.anime__input {
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white !important;
+  width: 60%;
+  /* border-right: none; */
+  border: 0.5px solid #f4f1f1a1;
+}
+
+.card__size {
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.drop {
+  margin-top: 1.5px;
+}
+
+.slider {
+  overflow: hidden;
+}
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
